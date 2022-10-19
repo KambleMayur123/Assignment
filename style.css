@@ -99,7 +99,7 @@ body {
 
 .paragraph {
     background-color: #191919;
-    width: 40%;
+    width: max-content;
     margin-bottom: 30px;
     color: white;
     border-radius: 20px;
@@ -125,7 +125,7 @@ body {
 }
 
 .heading {
-    font-size: 11.1rem;
+    font-size: 11.1vw;
     line-height: 0.85;
     color: white;
     letter-spacing: 4px;
@@ -174,6 +174,7 @@ body {
     border-radius: 17px;
     color: yellow;
     margin-bottom: 20px;
+
 }
 
 .calory {
@@ -274,7 +275,7 @@ body {
 
 .third_section {
     display: table-caption;
-    font-size: 7rem;
+    font-size: 7vw;
     font-weight: 500;
     z-index: 1;
 
@@ -378,16 +379,92 @@ footer {
     text-align: start;
 }
 
+nav #bg {
+    background-color: lightgray;
+}
+
+
+
 @media screen and (max-width: 767px) {
     .maintag {
         display: inline-block;
+    }
+
+    .heading {
+        font-size: 85px;
+        padding: 0 0 0 15px;
+
     }
 
     .timer {
         position: static;
         display: flex;
         width: 100%;
+        justify-content: end;
+        margin: 0 15px 0 0;
+
+    }
+
+    .m_top {
+        display: grid;
         justify-content: center;
+    }
+
+
+    .time {
+        margin-right: 15px;
+
+    }
+
+    .more_xercises {
+        float: none;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .third_section {
+        margin: 0 0 70px 0;
+        font-size: 65px;
+        font-weight: 700;
+    }
+
+    .patch_img {
+        position: relative;
+        right: 25%;
+        bottom: 10%;
+
+    }
+
+    .start_btn {
+        text-align: center;
+        display: block;
+    }
+
+    .start_btn_res {
+        display: block;
+        position: relative;
+        top: 25%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .priview_btn {
+        display: block;
+        text-align: center;
+        width: 95%;
+        margin: 15px 0 0 0;
+    }
+
+    .paragraph {
+
+        padding: 0 0 0 15px;
+    }
+
+    .text-below-h {
+
+        padding: 0 0 0 15px;
     }
 
 }
@@ -398,7 +475,75 @@ footer {
         position: static;
         display: flex;
         width: 100%;
+        justify-content: end;
+        margin: 0 15px 0 0;
+
+    }
+
+    .patch_img {
+        position: relative;
+        right: 25%;
+        bottom: 10%;
+
+    }
+
+    .text-below-h {
+
+        padding: 0 0 0 15px;
+    }
+
+    .start_btn {
+        text-align: center;
+        display: block;
+    }
+
+    .priview_btn {
+        display: block;
+        text-align: center;
+        width: 95%;
+        margin: 15px 0 0 0;
+    }
+
+    .third_section {
+        margin: 0 0 70px 0;
+        font-size: 65px;
+        font-weight: 700;
+    }
+
+
+    .more_xercises {
+        float: none;
+        display: flex;
         justify-content: center;
+    }
+
+    .m_top {
+        display: grid;
+        justify-content: center;
+    }
+
+
+    .buttons {
+        margin: 0 0 0 15px;
+
+    }
+
+    .time {
+        margin-right: 15px;
+
+    }
+
+    .start_btn_res {
+        display: block;
+        position: relative;
+        top: 25%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .paragraph {
+
+        padding: 0 0 0 15px;
     }
 }
 
